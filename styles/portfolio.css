@@ -20,12 +20,12 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 80px;
   line-height: 1.5;
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 54px;
 }
 
 h3 {
@@ -100,6 +100,11 @@ nav li.active a {
   padding: 15px 30px;
 }
 
+.btn-branding:hover {
+  border: 1px solid var(--branding-colour);
+  color: var(--branding-colour);
+}
+
 .btn-branding-outline {
   color: var(--branding-colour);
   border: 1px solid var(--branding-colour);
@@ -109,8 +114,13 @@ nav li.active a {
   padding: 15px 30px;
 }
 
+.btn-branding-outline:hover {
+  color: white;
+  background: var(--branding-colour);
+}
+
 .project-description {
-  padding: 120px 60px 0;
+  padding: 30px 60px 0;
 }
 
 .content-container {
