@@ -65,8 +65,10 @@ nav li.active a {
   color: var(--branding-colour);
 }
 
-.logo {
-  max-height: 40px;
+.nav-name {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .hero {
